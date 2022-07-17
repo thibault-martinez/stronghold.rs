@@ -21,7 +21,7 @@ insecure = [ ]
 thiserror = { version = "1.0.30" }
 zeroize = { version = "1.4.3", features = [ "zeroize_derive" ] }
 serde = { version = "1.0", features = [ "derive" ] }
-iota-crypto = { version = "0.12.1", features = [
+iota-crypto = { version = "0.13.0", features = [
   "aes-gcm",
   "aes-kw",
   "random",
@@ -55,6 +55,7 @@ log = { version = "0.4.14" }
 base64 = { version = "0.13.0" }
 regex = { version = "1.5.5" }
 libc = { version = "0.2" }
+iota-crypto = { version = "0.13.0", features = [ "blake2b" ] }
 
 [[bench]]
 name = "config"
